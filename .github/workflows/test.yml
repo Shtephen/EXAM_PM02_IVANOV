@@ -28,7 +28,7 @@ jobs:
       run: dotnet build --configuration Release 
 
     - name: List files in current directory
-      run: ls -R  # Это поможет вам увидеть структуру каталогов
+      run: ls -R  
 
     - name: Run tests
       run: |
